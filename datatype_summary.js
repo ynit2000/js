@@ -5,7 +5,7 @@ datatype  are divdied into 2 type :
     2. call by refferation
 
 
-*/
+
 
 
 
@@ -60,5 +60,20 @@ console.log(typeof myObj)
 console.log(typeof myfunction)  // funcation object  
 
 console.log(typeof id)
+
+
+*/
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (Primitive ) you get copy of variable  , Heap ( Non- Primitive) you get reffferce of main variable
+
+let myYoutube = "Niteshahdotcom";
+
+let anotherName = myYoutubeName;
+
+anotherName = "Good nix";
+
+console.log(anotherName);
+
 
 
