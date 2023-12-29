@@ -6,7 +6,7 @@ datatype  are divdied into 2 type :
 
 
 
-
+*/
 
 
 // Primitive 
@@ -62,18 +62,39 @@ console.log(typeof myfunction)  // funcation object
 console.log(typeof id)
 
 
-*/
-// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+console.log( 
+    "++++++++++++++Stack & Heap++++++++++++++++++++++++++++++++++++++++++++++")
 
 // stack (Primitive ) you get copy of variable  , Heap ( Non- Primitive) you get reffferce of main variable
 
-let myYoutube = "Niteshahdotcom";
+let myYoutubeName = "Niteshahdotcom";
 
 let anotherName = myYoutubeName;
 
 anotherName = "Good nix";
 
+console.log(myYoutubeName)
 console.log(anotherName);
+
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+
+
+}
+
+let userTwo = userOne
+
+userTwo.email= "good@google.com"
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
+
+
 
 
 
