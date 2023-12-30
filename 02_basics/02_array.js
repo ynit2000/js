@@ -26,6 +26,7 @@ console.log("Real:"+   real_another_array)
 // making string to Array  for we can use array
 
 console.log( Array.isArray("Hitesh"))
+console.log( Array.isArray(null))
 console.log( Array.from("Hitesh"))
 console.log( Array.from({name:"Hitesh"}))  // interesting in interview
 
