@@ -25,15 +25,13 @@ console.log("Real:"+   real_another_array)
 
 // making string to Array  for we can use array
 
-console.log( Array.isArray("Hitesh"))
+console.log( Array.isArray("Ritesh"))
 console.log( Array.isArray(null))
-console.log( Array.from("Hitesh"))
-console.log( Array.from({name:"Hitesh"}))  // interesting in interview
+console.log( Array.from("Ritesh"))
+console.log( Array.from({name:"Ritesh"}))  // interesting in interview
 
 let score1 =100
 let score2 =200
 let score3 =300
 
 console.log(Array.of(score1,score2,score3));
-
-
