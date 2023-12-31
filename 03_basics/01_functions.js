@@ -31,16 +31,54 @@ const result = addTwoNumbers(3, 5)   // argument
 
 // console.log("Result :", result);
 
-function loginInUserMessage(usernmae = "sam"){ // atlest value of unsername (sam)
+function loginInUserMessage(username = "sam"){ // atlest value of unsername (sam)
     // if(usernmae === undefined){
-    if(!usernmae){   // -ve of username 
+    if(!username){   // -ve of username 
         console.log("Please enter a unsername");
         return
     }
-    return `${usernmae} just logged in`
+    return `${username} just logged in`
 }
 
 console.log(loginInUserMessage("Good!"))
 console.log(loginInUserMessage())   // output : undefined just logged in
 
+// ****************** Cart - E-com****************************
+
+function calculateCartPrice(val1,val2 ,...num1){  // rest operator 
+
+    return num1;
+    // val1 = 200 ,val2 = 400 take this values
+}
+console.log(calculateCartPrice(200,400,500,2000))
+
+const user = {
+    username: "good",
+    price: 99,
+
+}
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and Price is ${anyobject.price}`);
+
+}
+
+handleObject(user)
+
+handleObject ({
+    username: "nix",
+    price: 499
+})
+handleObject ({
+    username: "sam",
+    price: 399
+})
+
+const myNewArray = [200, 400 , 100 , 600]
+
+function retunrSecondValue(getArray){
+    return getArray[1]
+
+}
+
+console.log(retunrSecondValue(myNewArray))
 
