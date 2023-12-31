@@ -63,3 +63,38 @@ console.log(Object.entries(tinderUser))   // output : [ [ 'id', '123abc' ], [ 'n
 
 // check this present in Object or not
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+
+
+// IMP and USED lot - 
+
+const course = {
+    coursename : "JS in Hindi",
+    price: "999",
+    courseInstrutor: "Hitesh"
+
+
+}
+// course.courseInstrutor  // not good practica
+
+const {courseInstrutor: instructor} = course  // de-structed
+console.log(instructor)
+
+// const navbar = ({company}) => {
+
+// }  // used in react
+
+// navbar(company = "Pritave")
+
+// {     // json file to acces api
+//     "name": "Nitesha",
+//     "coursename": "JS in Hindi",
+//     "price": "Free",
+// }
+
+// [  // this sample of array used api 
+//     {},
+//     {},
+//     {}
+// ]
+ 
