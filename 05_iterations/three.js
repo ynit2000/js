@@ -25,10 +25,22 @@ map.set('UK',"United Kingdom")
 map.set('CHN',"China")
 map.set('FR',"France")
 
-console.log(map)
+// console.log(map)
+// for (const keyss in map) {
+//     console.log(map[keyss])
+// }
 
 
-for (const [key, value] of map) {
-    console.log(key,':-', value);
+// for (const [key, value] of map) {
+//     console.log(key,':-', value);
 }
 
+const myObject = {
+    game1: 'NFS',
+    game2: 'Spiderman'
+}
+
+for (const [key, value] of myObject) {
+    console.log(key, ':-', value);
+    
+}
