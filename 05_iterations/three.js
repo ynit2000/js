@@ -33,7 +33,7 @@ map.set('FR',"France")
 
 // for (const [key, value] of map) {
 //     console.log(key,':-', value);
-}
+
 
 const myObject = {
     game1: 'NFS',
