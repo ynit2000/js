@@ -7,16 +7,16 @@ buttons.forEach(function (button) {
     button.addEventListener("Click", function (event) {
         console.log(event.target)
         if (event.target.id == "grey") {
-            body.style.backgroundColor = e.target.id
+            body.style.backgroundColor = event.target.id
         }
         if (event.target.id == "white") {
-            body.style.backgroundColor = e.target.id
+            body.style.backgroundColor = event.target.id
         }
         if (event.target.id == "blue") {
-            body.style.backgroundColor = e.target.id
+            body.style.backgroundColor = event.target.id
         }
         if (event.target.id == "yellow") {
-            body.style.backgroundColor = e.target.id
+            body.style.backgroundColor = event.target.id
         }
 
     });
