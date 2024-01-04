@@ -25,13 +25,13 @@ form.addEventListener('submit', function(event){
     // show the result part  used IF else statement
 
     if (bmi <= 18.6){
-        results.innerHTML = `BMI : Under Weight <span>${bmi}</span>`;
+        results.innerHTML = `BMI : Under Weight :- <span>${bmi}</span>`;
     }
     else if (bmi > 18.6 && bmi <= 24.9){
-        results.innerHTML = `BMI : Normal Weight <span>${bmi}</span>`;
+        results.innerHTML = `BMI : Normal Weight :- <span>${bmi}</span>`;
     }
     else if (bmi > 24.9){
-        results.innerHTML = `BMI : Over Weight <span>${bmi}</span>`;
+        results.innerHTML = `BMI : Over Weight :-<span>${bmi}</span>`;
     }
 
     
