@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private aur code</title>
+</head>
+<body>
+    <h1>Private Members</h1>
+    <button id="start">start </button>
+    <button id="stop">stop </button>
+   
+
+    
+</body>
+<script>
+    // this to start and stop by button
+    
+
+
+    const sayDate = function(){
+        console.log("Private",Date.now());
+    }
+
+    let intervalId;
+
+    // const StopMe = setTimeout(changeText)
+    document.querySelector('#start').addEventListener('click', function(){
+        intervalId = setInterval(sayDate, 1000)
+        // clearTimeout(StopMe)
+        console.log("STARTED")
+    })
+
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        // intervalId = setInterval(sayDate,100000)
+        // clearTimeout(StopMe)
+        clearInterval(intervalId);
+        console.log("STOPPED")
+    })
+
+    // const StartMe = setTimeout(changeText)
+    
+
+
+    
+
+</script>
+</html>
